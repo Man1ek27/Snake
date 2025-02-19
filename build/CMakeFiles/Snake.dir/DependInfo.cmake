@@ -4,6 +4,23 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "RC"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_RC
+  "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/icon.rc" "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/build/CMakeFiles/Snake.dir/icon.rc.obj"
+  )
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_RC
+  "SFML_STATIC"
+  "UNICODE"
+  "_UNICODE"
+  )
+
+# The include file search paths:
+set(CMAKE_RC_TARGET_INCLUDE_PATH
+  "C:/Users/Mariu/Documents/Library/SFML-2.6.2/include"
   )
 
 # The set of dependency files which are needed:

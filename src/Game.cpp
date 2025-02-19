@@ -26,5 +26,11 @@ void Game::CreateWindow(sf::RenderWindow &W, sf::String title){
     W.setFramerateLimit(FRAME_LIMIT);
     W.setPosition(sf::Vector2i(POSX, POSY));
     W.setKeyRepeatEnabled(false);
+
+    sf::Image icon;
+    if(!icon.loadFromFile("../images/snake.png")){
+        std::cerr << "ERROR loading icon!" << std::endl;
+    }
+    W.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 }
 

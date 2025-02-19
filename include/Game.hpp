@@ -7,8 +7,8 @@
 #define SCREENX 800
 #define SCREENY 800
 
-#define POSX 400
-#define POSY 400
+#define POSX 800
+#define POSY 300
 
 #define CBITS 32
 

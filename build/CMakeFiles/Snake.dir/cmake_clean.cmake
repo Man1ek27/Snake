@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe"
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe.manifest"
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.pdb"
+  "CMakeFiles/Snake.dir/icon.rc.obj"
   "CMakeFiles/Snake.dir/src/Field.cpp.obj"
   "CMakeFiles/Snake.dir/src/Field.cpp.obj.d"
   "CMakeFiles/Snake.dir/src/Game.cpp.obj"
@@ -14,6 +15,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/Snake.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

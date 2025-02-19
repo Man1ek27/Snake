@@ -128,6 +128,14 @@ Snake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
+icon.obj: icon.rc.obj
+.PHONY : icon.obj
+
+# target to build an object file
+icon.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/icon.rc.obj
+.PHONY : icon.rc.obj
+
 src/Field.obj: src/Field.cpp.obj
 .PHONY : src/Field.obj
 
@@ -233,6 +241,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Snake
+	@echo ... icon.obj
 	@echo ... src/Field.obj
 	@echo ... src/Field.i
 	@echo ... src/Field.s

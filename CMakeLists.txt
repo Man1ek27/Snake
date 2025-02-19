@@ -16,8 +16,10 @@ link_directories(C:/Users/Mariu/OneDrive/Dokumenty/Library/flac-1.4.3-win/Win64)
 #multiple
 file(GLOB SOURCES "src/*.cpp")
 
+set(APP_ICON_RECOURCE "icon.rc")
+
 # Tworzenie pliku wykonywalnego
-add_executable(Snake  ${SOURCES}) #WIN32
+add_executable(Snake  ${SOURCES} ${APP_ICON_RECOURCE}) #WIN32
 
 
 
