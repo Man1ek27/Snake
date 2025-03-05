@@ -6,8 +6,7 @@ Game::Game(std::string title): _title{title}{}
 
 void Game::Run(){
     sf::RenderWindow W;
-    this->CreateWindow(W, _title);
-
+    this->CreateNewWindow(W, _title);
 
     sf::Event e;
     while(W.isOpen()){
@@ -20,12 +19,13 @@ void Game::Run(){
     
 }
 
-void Game::CreateWindow(sf::RenderWindow &W, sf::String title){
+void Game::CreateNewWindow(sf::RenderWindow &W, sf::String title){
     W.create(sf::VideoMode(SCREENX, SCREENY, CBITS), title);
     W.setActive(true);
     W.setFramerateLimit(FRAME_LIMIT);
     W.setPosition(sf::Vector2i(POSX, POSY));
     W.setKeyRepeatEnabled(false);
+    
 
     sf::Image icon;
     if(!icon.loadFromFile("../images/snake.png")){
