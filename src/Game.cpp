@@ -8,12 +8,14 @@ void Game::Run(){
     sf::RenderWindow W;
     this->CreateNewWindow(W, _title);
 
+    Field board("../images/background.jpg");
+
     sf::Event e;
     while(W.isOpen()){
         while(W.pollEvent(e)){
             if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) W.close();
         }
-
+        board.Draw(W);
         W.display();
     }
     
