@@ -13,4 +13,5 @@ class Field: public sf::RenderWindow{
     public:
         Field(std::string);
         void Draw(sf::RenderWindow& window);
+
 };

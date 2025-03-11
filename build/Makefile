@@ -184,6 +184,30 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/Part.obj: src/Part.cpp.obj
+.PHONY : src/Part.obj
+
+# target to build an object file
+src/Part.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Part.cpp.obj
+.PHONY : src/Part.cpp.obj
+
+src/Part.i: src/Part.cpp.i
+.PHONY : src/Part.i
+
+# target to preprocess a source file
+src/Part.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Part.cpp.i
+.PHONY : src/Part.cpp.i
+
+src/Part.s: src/Part.cpp.s
+.PHONY : src/Part.s
+
+# target to generate assembly for a file
+src/Part.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Part.cpp.s
+.PHONY : src/Part.cpp.s
+
 src/Snake.obj: src/Snake.cpp.obj
 .PHONY : src/Snake.obj
 
@@ -248,6 +272,9 @@ help:
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
+	@echo ... src/Part.obj
+	@echo ... src/Part.i
+	@echo ... src/Part.s
 	@echo ... src/Snake.obj
 	@echo ... src/Snake.i
 	@echo ... src/Snake.s

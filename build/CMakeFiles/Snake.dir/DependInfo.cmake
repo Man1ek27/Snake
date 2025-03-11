@@ -27,6 +27,7 @@ set(CMAKE_RC_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Field.cpp" "CMakeFiles/Snake.dir/src/Field.cpp.obj" "gcc" "CMakeFiles/Snake.dir/src/Field.cpp.obj.d"
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Game.cpp" "CMakeFiles/Snake.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/Snake.dir/src/Game.cpp.obj.d"
+  "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Part.cpp" "CMakeFiles/Snake.dir/src/Part.cpp.obj" "gcc" "CMakeFiles/Snake.dir/src/Part.cpp.obj.d"
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Snake.cpp" "CMakeFiles/Snake.dir/src/Snake.cpp.obj" "gcc" "CMakeFiles/Snake.dir/src/Snake.cpp.obj.d"
   "C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/main.cpp" "CMakeFiles/Snake.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Snake.dir/src/main.cpp.obj.d"
   )

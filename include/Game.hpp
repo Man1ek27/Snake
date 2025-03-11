@@ -9,6 +9,7 @@
 #define SCREENX 800
 #define SCREENY 800
 #include "Field.hpp"
+#include "Snake.hpp"
 
 #define POSX sf::VideoMode::getDesktopMode().width/2 - SCREENX/2
 #define POSY sf::VideoMode::getDesktopMode().height/2 - SCREENY/2

@@ -1,6 +1,6 @@
-CMakeFiles/Snake.dir/src/Field.cpp.obj: \
- C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Field.cpp \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+CMakeFiles/Snake.dir/src/Part.cpp.obj: \
+ C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Part.cpp \
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Window.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/System.hpp \
@@ -245,9 +245,9 @@ CMakeFiles/Snake.dir/src/Field.cpp.obj: \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/Sprite.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/Text.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Game.hpp \
  C:/MinGW/include/c++/13.1.0/iostream C:/MinGW/include/c++/13.1.0/istream \
  C:/MinGW/include/c++/13.1.0/bits/istream.tcc \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Game.hpp \
  C:/MinGW/x86_64-w64-mingw32/include/windows.h \
  C:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/MinGW/x86_64-w64-mingw32/include/excpt.h \
@@ -493,5 +493,5 @@ CMakeFiles/Snake.dir/src/Field.cpp.obj: \
  C:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
  C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
  C:/MinGW/x86_64-w64-mingw32/include/imm.h \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp

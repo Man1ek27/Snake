@@ -9,6 +9,7 @@ void Game::Run(){
     this->CreateNewWindow(W, _title);
 
     Field board("../images/background.jpg");
+    Snake snake(3);
 
     sf::Event e;
     while(W.isOpen()){
@@ -16,6 +17,7 @@ void Game::Run(){
             if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) W.close();
         }
         board.Draw(W);
+        snake.Draw(W);
         W.display();
     }
     
