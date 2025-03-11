@@ -8,7 +8,8 @@
 class Part;
 
 class Snake: public sf::Sprite{
-    float speed = 0;
+    float speed = 1;
+    std::string direction = "up";
     std::vector<Part> parts;
 
 
@@ -18,6 +19,7 @@ class Snake: public sf::Sprite{
         Snake(int part_count);
 
         void Draw(sf::RenderWindow &W);
-
+        void CatchEvent(sf::Event &e);
+        void UpdatePos();
 
 };

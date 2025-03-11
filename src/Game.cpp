@@ -9,9 +9,10 @@ void Game::Run(){
     this->CreateNewWindow(W, _title);
 
     Field board("../images/background.jpg");
-    Snake snake(3);
+    Snake snake(4);
 
     sf::Event e;
+    int steps=1;
     while(W.isOpen()){
         while(W.pollEvent(e)){
             if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) W.close();
@@ -19,6 +20,12 @@ void Game::Run(){
         board.Draw(W);
         snake.Draw(W);
         W.display();
+
+        std::cout << steps << std::endl;
+        if((++steps)%10 == 0){
+            snake.UpdatePos();
+            steps =1;
+        }
     }
     
 }
