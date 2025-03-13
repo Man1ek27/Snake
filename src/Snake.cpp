@@ -53,10 +53,12 @@ void Snake::UpdatePos(){
 
     sf::Vector2f prev(parts[0].getPosition().x, parts[0].getPosition().y);
     parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x + (21*speed * x), parts[0].getPosition().y + (21*speed * y)));
-    for(auto i = parts.begin()+1; i< parts.end(); i++){
-        sf::Vector2f temp((*i).getPosition().x, (*i).getPosition().y);
-        (*i).setPosition(prev);
-        prev = temp;
+    if(speed){
+        for(auto i = parts.begin()+1; i< parts.end(); i++){
+            sf::Vector2f temp((*i).getPosition().x, (*i).getPosition().y);
+            (*i).setPosition(prev);
+            prev = temp;
+        }
     }
 }
 
