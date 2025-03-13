@@ -9,4 +9,5 @@ class Part: public sf::RectangleShape{
 
     public:
         Part(sf::Vector2f pos);
+        Part(sf::Vector2f pos, sf::Color color);
 };

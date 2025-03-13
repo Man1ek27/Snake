@@ -1,7 +1,8 @@
 #include "../include/Snake.hpp"
 
 Snake::Snake(int part_count){
-    for(int i=0; i<part_count; i++){
+    parts.push_back(Part(sf::Vector2f(SCREENX/2,(SCREENY/2)+1*23),sf::Color(0xffff00ff)));
+    for(int i=1; i<part_count; i++){
         parts.push_back(Part(sf::Vector2f(SCREENX/2,(SCREENY/2)+i*23)));
     }
 }
@@ -17,22 +18,22 @@ void Snake::CatchEvent(sf::Event &e){
         switch (e.key.code) {
             case sf::Keyboard::Up:
             case sf::Keyboard::W:
-                direction = "up";
+                if(direction != "down") direction = "up";
                 break;
 
             case sf::Keyboard::Down:
             case sf::Keyboard::S:
-                direction = "down";
+                if(direction != "up")direction = "down";
                 break;
 
             case sf::Keyboard::Left:
             case sf::Keyboard::A:
-                direction = "left";
+                if(direction != "right") direction = "left";
                 break;
 
             case sf::Keyboard::Right:
             case sf::Keyboard::D:
-                direction = "right";
+                if(direction != "left" )direction = "right";
                 break;
 
             case sf::Keyboard::Space:
