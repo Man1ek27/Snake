@@ -494,4 +494,5 @@ CMakeFiles/Snake.dir/src/Snake.cpp.obj: \
  C:/MinGW/x86_64-w64-mingw32/include/winsvc.h \
  C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
  C:/MinGW/x86_64-w64-mingw32/include/imm.h \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp

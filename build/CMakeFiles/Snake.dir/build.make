@@ -83,11 +83,26 @@ CMakeFiles/Snake.dir/src/Field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/Field.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Field.cpp -o CMakeFiles\Snake.dir\src\Field.cpp.s
 
+CMakeFiles/Snake.dir/src/Fruit.cpp.obj: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/Fruit.cpp.obj: CMakeFiles/Snake.dir/includes_CXX.rsp
+CMakeFiles/Snake.dir/src/Fruit.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Fruit.cpp
+CMakeFiles/Snake.dir/src/Fruit.cpp.obj: CMakeFiles/Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Snake.dir/src/Fruit.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Fruit.cpp.obj -MF CMakeFiles\Snake.dir\src\Fruit.cpp.obj.d -o CMakeFiles\Snake.dir\src\Fruit.cpp.obj -c C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Fruit.cpp
+
+CMakeFiles/Snake.dir/src/Fruit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/Fruit.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Fruit.cpp > CMakeFiles\Snake.dir\src\Fruit.cpp.i
+
+CMakeFiles/Snake.dir/src/Fruit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/Fruit.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Fruit.cpp -o CMakeFiles\Snake.dir\src\Fruit.cpp.s
+
 CMakeFiles/Snake.dir/src/Game.cpp.obj: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/src/Game.cpp.obj: CMakeFiles/Snake.dir/includes_CXX.rsp
 CMakeFiles/Snake.dir/src/Game.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Game.cpp
 CMakeFiles/Snake.dir/src/Game.cpp.obj: CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Snake.dir/src/Game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Snake.dir/src/Game.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Game.cpp.obj -MF CMakeFiles\Snake.dir\src\Game.cpp.obj.d -o CMakeFiles\Snake.dir\src\Game.cpp.obj -c C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Game.cpp
 
 CMakeFiles/Snake.dir/src/Game.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/Snake.dir/src/Part.cpp.obj: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/src/Part.cpp.obj: CMakeFiles/Snake.dir/includes_CXX.rsp
 CMakeFiles/Snake.dir/src/Part.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Part.cpp
 CMakeFiles/Snake.dir/src/Part.cpp.obj: CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Snake.dir/src/Part.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Snake.dir/src/Part.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Part.cpp.obj -MF CMakeFiles\Snake.dir\src\Part.cpp.obj.d -o CMakeFiles\Snake.dir\src\Part.cpp.obj -c C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Part.cpp
 
 CMakeFiles/Snake.dir/src/Part.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/Snake.dir/src/Snake.cpp.obj: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/src/Snake.cpp.obj: CMakeFiles/Snake.dir/includes_CXX.rsp
 CMakeFiles/Snake.dir/src/Snake.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Snake.cpp
 CMakeFiles/Snake.dir/src/Snake.cpp.obj: CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Snake.dir/src/Snake.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snake.dir/src/Snake.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Snake.cpp.obj -MF CMakeFiles\Snake.dir\src\Snake.cpp.obj.d -o CMakeFiles\Snake.dir\src\Snake.cpp.obj -c C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Snake.cpp
 
 CMakeFiles/Snake.dir/src/Snake.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/src/main.cpp.obj: CMakeFiles/Snake.dir/includes_CXX.rsp
 CMakeFiles/Snake.dir/src/main.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/main.cpp
 CMakeFiles/Snake.dir/src/main.cpp.obj: CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snake.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Snake.dir/src/main.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/main.cpp.obj -MF CMakeFiles\Snake.dir\src\main.cpp.obj.d -o CMakeFiles\Snake.dir\src\main.cpp.obj -c C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\main.cpp
 
 CMakeFiles/Snake.dir/src/main.cpp.i: cmake_force
@@ -145,12 +160,13 @@ CMakeFiles/Snake.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/Snake.dir/icon.rc.obj: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/icon.rc.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/icon.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building RC object CMakeFiles/Snake.dir/icon.rc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building RC object CMakeFiles/Snake.dir/icon.rc.obj"
 	C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\icon.rc CMakeFiles\Snake.dir\icon.rc.obj
 
 # Object files for target Snake
 Snake_OBJECTS = \
 "CMakeFiles/Snake.dir/src/Field.cpp.obj" \
+"CMakeFiles/Snake.dir/src/Fruit.cpp.obj" \
 "CMakeFiles/Snake.dir/src/Game.cpp.obj" \
 "CMakeFiles/Snake.dir/src/Part.cpp.obj" \
 "CMakeFiles/Snake.dir/src/Snake.cpp.obj" \
@@ -161,6 +177,7 @@ Snake_OBJECTS = \
 Snake_EXTERNAL_OBJECTS =
 
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/src/Field.cpp.obj
+C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/src/Fruit.cpp.obj
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/src/Game.cpp.obj
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/src/Part.cpp.obj
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/src/Snake.cpp.obj
@@ -170,7 +187,7 @@ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/S
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/linkLibs.rsp
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/objects1.rsp
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/bin/Snake.exe: CMakeFiles/Snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\bin\Snake.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\bin\Snake.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Snake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

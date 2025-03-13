@@ -160,6 +160,30 @@ src/Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Field.cpp.s
 .PHONY : src/Field.cpp.s
 
+src/Fruit.obj: src/Fruit.cpp.obj
+.PHONY : src/Fruit.obj
+
+# target to build an object file
+src/Fruit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Fruit.cpp.obj
+.PHONY : src/Fruit.cpp.obj
+
+src/Fruit.i: src/Fruit.cpp.i
+.PHONY : src/Fruit.i
+
+# target to preprocess a source file
+src/Fruit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Fruit.cpp.i
+.PHONY : src/Fruit.cpp.i
+
+src/Fruit.s: src/Fruit.cpp.s
+.PHONY : src/Fruit.s
+
+# target to generate assembly for a file
+src/Fruit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/src/Fruit.cpp.s
+.PHONY : src/Fruit.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 .PHONY : src/Game.obj
 
@@ -269,6 +293,9 @@ help:
 	@echo ... src/Field.obj
 	@echo ... src/Field.i
 	@echo ... src/Field.s
+	@echo ... src/Fruit.obj
+	@echo ... src/Fruit.i
+	@echo ... src/Fruit.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s

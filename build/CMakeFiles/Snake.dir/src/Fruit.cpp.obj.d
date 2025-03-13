@@ -1,5 +1,6 @@
-CMakeFiles/Snake.dir/src/main.cpp.obj: \
- C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\main.cpp \
+CMakeFiles/Snake.dir/src/Fruit.cpp.obj: \
+ C:\Users\Mariu\OneDrive\Dokumenty\C++\Projects\Snake\src\Fruit.cpp \
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp \
  C:/MinGW/include/c++/13.1.0/iostream \
  C:/MinGW/include/c++/13.1.0/bits/requires_hosted.h \
  C:/MinGW/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,7 +140,6 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: \
  C:/MinGW/include/c++/13.1.0/bits/ostream.tcc \
  C:/MinGW/include/c++/13.1.0/istream \
  C:/MinGW/include/c++/13.1.0/bits/istream.tcc \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Game.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Window.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/System.hpp \
@@ -248,6 +248,7 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/Sprite.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/Text.hpp \
  C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Game.hpp \
  C:/MinGW/x86_64-w64-mingw32/include/windows.h \
  C:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/MinGW/x86_64-w64-mingw32/include/excpt.h \
@@ -495,5 +496,4 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: \
  C:/MinGW/x86_64-w64-mingw32/include/imm.h \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp

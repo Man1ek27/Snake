@@ -13,6 +13,8 @@ void Game::Run(){
 
     sf::Event e;
     int steps=1;
+    Fruit fruit;
+
     while(W.isOpen()){
         while(W.pollEvent(e)){
             if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) W.close();
@@ -28,6 +30,7 @@ void Game::Run(){
             steps =1;
         }
         board.Draw(W);
+        W.draw(fruit);
         snake.Draw(W);
         W.display();
     }

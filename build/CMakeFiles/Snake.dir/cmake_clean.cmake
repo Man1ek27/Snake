@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Snake.dir/icon.rc.obj"
   "CMakeFiles/Snake.dir/src/Field.cpp.obj"
   "CMakeFiles/Snake.dir/src/Field.cpp.obj.d"
+  "CMakeFiles/Snake.dir/src/Fruit.cpp.obj"
+  "CMakeFiles/Snake.dir/src/Fruit.cpp.obj.d"
   "CMakeFiles/Snake.dir/src/Game.cpp.obj"
   "CMakeFiles/Snake.dir/src/Game.cpp.obj.d"
   "CMakeFiles/Snake.dir/src/Part.cpp.obj"
