@@ -9,13 +9,13 @@ class Part;
 
 class Snake: public sf::Sprite{
     float speed = 1;
-    std::string direction = "up";
     std::vector<Part> parts;
-
-
+    
+    
     bool destroyed = false;
-
+    
     public:
+    std::string direction = "up";
         Snake(int part_count);
 
         void Draw(sf::RenderWindow &W);

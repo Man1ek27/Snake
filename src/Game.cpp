@@ -16,16 +16,20 @@ void Game::Run(){
     while(W.isOpen()){
         while(W.pollEvent(e)){
             if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) W.close();
+            snake.CatchEvent(e);
+        }
+        
+
+        //std::cout << steps << std::endl;
+        
+        if((++steps)%10 == 0){
+            snake.UpdatePos();
+            std::cout << snake.direction << std::endl;
+            steps =1;
         }
         board.Draw(W);
         snake.Draw(W);
         W.display();
-
-        std::cout << steps << std::endl;
-        if((++steps)%10 == 0){
-            snake.UpdatePos();
-            steps =1;
-        }
     }
     
 }

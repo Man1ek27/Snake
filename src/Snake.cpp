@@ -13,20 +13,46 @@ void Snake::Draw(sf::RenderWindow &W){
 }
 
 void Snake::CatchEvent(sf::Event &e){
-    if(e.type == sf::Event::KeyPressed && (e.key.code == sf::Keyboard::Up || e.key.code == sf::Keyboard::W)) direction = "up";
-    if(e.type == sf::Event::KeyPressed && (e.key.code == sf::Keyboard::Down || e.key.code == sf::Keyboard::S)) direction = "down";
-    if(e.type == sf::Event::KeyPressed && (e.key.code == sf::Keyboard::Left || e.key.code == sf::Keyboard::A)) direction = "left";
-    if(e.type == sf::Event::KeyPressed && (e.key.code == sf::Keyboard::Right || e.key.code == sf::Keyboard::D)) direction = "right";
-    
-    if(e.type == sf::Event::KeyPressed && e.key.code == sf::Keyboard::Space){
-        if(speed != 0) speed =0;
-        else speed =0;
+    if (e.type == sf::Event::KeyPressed) {
+        switch (e.key.code) {
+            case sf::Keyboard::Up:
+            case sf::Keyboard::W:
+                direction = "up";
+                break;
+
+            case sf::Keyboard::Down:
+            case sf::Keyboard::S:
+                direction = "down";
+                break;
+
+            case sf::Keyboard::Left:
+            case sf::Keyboard::A:
+                direction = "left";
+                break;
+
+            case sf::Keyboard::Right:
+            case sf::Keyboard::D:
+                direction = "right";
+                break;
+
+            case sf::Keyboard::Space:
+                std::cout << "Space pressed" << std::endl;
+                speed = (speed == 0) ? 1 : 0;
+                break;
+
+            default:
+                break;
+        }
     }
+    
 }
 
 void Snake::UpdatePos(){
+    int x = (direction == "left"?-1:(direction == "right"?1:0));
+    int y = (direction == "up"?-1:(direction == "down"?1:0));
+
     sf::Vector2f prev(parts[0].getPosition().x, parts[0].getPosition().y);
-    parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x + (21*speed), parts[0].getPosition().y));
+    parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x + (21*speed * x), parts[0].getPosition().y + (21*speed * y)));
     for(auto i = parts.begin()+1; i< parts.end(); i++){
         sf::Vector2f temp((*i).getPosition().x, (*i).getPosition().y);
         (*i).setPosition(prev);
