@@ -23,8 +23,8 @@ Pause::Pause(sf::Font &font){
     this->txt.setFillColor(sf::Color(0xffffffff));
     this->txt.setFont(font);
     this->txt.setString(ss.str());
-    this->txt.setOrigin(sf::Vector2f(this->txt.getGlobalBounds().width/2, this->txt.getGlobalBounds().height/2));
-    this->txt.setPosition(sf::Vector2f(SCREENX/2, SCREENY/2));
+    // this->txt.setOrigin(sf::Vector2f(this->txt.getGlobalBounds().width/2, this->txt.getGlobalBounds().height/2));
+    // this->txt.setPosition(sf::Vector2f(SCREENX/2, SCREENY/2));
     this->txt.setOutlineThickness(1);
     this->txt.setOutlineColor(sf::Color(0x000000ff));
 
@@ -32,5 +32,17 @@ Pause::Pause(sf::Font &font){
 
 void Pause::Draw(sf::RenderWindow &W){
     W.draw(*this);
+    this->txt.setOrigin(sf::Vector2f(this->txt.getGlobalBounds().width/2, this->txt.getGlobalBounds().height/2));
+    this->txt.setPosition(sf::Vector2f(SCREENX/2, SCREENY/2));
+    this->txt.setString(ss.str());
     W.draw(this->txt);
 }
+
+void Pause::Draw(sf::RenderWindow &W, std::string a){
+    W.draw(*this);
+    this->txt.setString(a);
+    this->txt.setOrigin(sf::Vector2f(this->txt.getGlobalBounds().width/2, this->txt.getGlobalBounds().height/2));
+    this->txt.setPosition(sf::Vector2f(SCREENX/2, SCREENY/2));
+    W.draw(this->txt);
+}
+

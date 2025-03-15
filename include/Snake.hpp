@@ -5,7 +5,9 @@
 #include <vector>
 
 #include "Part.hpp"
+#include "Field.hpp"
 class Part;
+class Pause;
 
 class Snake: public sf::Sprite{
     float speed = 1;
@@ -19,8 +21,9 @@ class Snake: public sf::Sprite{
         Snake(int part_count);
 
         void Draw(sf::RenderWindow &W);
-        void CatchEvent(sf::Event &e);
+        void CatchEvent(sf::Event &e, Pause &pause, sf::RenderWindow &W);
         void UpdatePos();
         float getSpeed();
+        void setSpeed(float sped);
 
 };

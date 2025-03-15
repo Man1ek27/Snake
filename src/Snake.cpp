@@ -13,7 +13,7 @@ void Snake::Draw(sf::RenderWindow &W){
     }
 }
 
-void Snake::CatchEvent(sf::Event &e){
+void Snake::CatchEvent(sf::Event &e, Pause &pause, sf::RenderWindow &W){
     if (e.type == sf::Event::KeyPressed) {
         switch (e.key.code) {
             case sf::Keyboard::Up:
@@ -35,12 +35,6 @@ void Snake::CatchEvent(sf::Event &e){
             case sf::Keyboard::D:
                 if(direction != "left" && speed )direction = "right";
                 break;
-
-            case sf::Keyboard::Space:
-                std::cout << "Space pressed" << std::endl;
-                speed = (speed == 0) ? 1 : 0;
-                break;
-
             default:
                 break;
         }
@@ -67,3 +61,8 @@ void Snake::UpdatePos(){
 float Snake::getSpeed(){
     return speed;
 }
+
+void Snake::setSpeed(float sped){
+    speed = sped;
+}
+

@@ -28,6 +28,7 @@ class Pause: public sf::RectangleShape{
     public:
         Pause(sf::Font &font);
         void Draw(sf::RenderWindow &W);
+        void Draw(sf::RenderWindow &W, std::string a);
 
 
 };
