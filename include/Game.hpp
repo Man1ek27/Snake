@@ -19,6 +19,7 @@
 
 class Game: public sf::RenderWindow{
     std::string _title;
+    sf::Font font;
 
     public:
         Game(std::string);

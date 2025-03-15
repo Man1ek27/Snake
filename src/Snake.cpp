@@ -18,22 +18,22 @@ void Snake::CatchEvent(sf::Event &e){
         switch (e.key.code) {
             case sf::Keyboard::Up:
             case sf::Keyboard::W:
-                if(direction != "down") direction = "up";
+                if(direction != "down" && speed) direction = "up";
                 break;
 
             case sf::Keyboard::Down:
             case sf::Keyboard::S:
-                if(direction != "up")direction = "down";
+                if(direction != "up" && speed)direction = "down";
                 break;
 
             case sf::Keyboard::Left:
             case sf::Keyboard::A:
-                if(direction != "right") direction = "left";
+                if(direction != "right" && speed) direction = "left";
                 break;
 
             case sf::Keyboard::Right:
             case sf::Keyboard::D:
-                if(direction != "left" )direction = "right";
+                if(direction != "left" && speed )direction = "right";
                 break;
 
             case sf::Keyboard::Space:
@@ -64,3 +64,6 @@ void Snake::UpdatePos(){
 }
 
 
+float Snake::getSpeed(){
+    return speed;
+}

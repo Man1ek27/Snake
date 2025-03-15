@@ -501,7 +501,9 @@ CMakeFiles/Snake.dir/src/Field.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pr
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
-  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
+  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp \
+  C:/MinGW/include/c++/13.1.0/sstream \
+  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc
 
 CMakeFiles/Snake.dir/src/Fruit.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Fruit.cpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp \
@@ -1002,6 +1004,8 @@ CMakeFiles/Snake.dir/src/Fruit.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pr
   C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+  C:/MinGW/include/c++/13.1.0/sstream \
+  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp
 
@@ -1503,6 +1507,8 @@ CMakeFiles/Snake.dir/src/Game.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
   C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+  C:/MinGW/include/c++/13.1.0/sstream \
+  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
@@ -2006,6 +2012,8 @@ CMakeFiles/Snake.dir/src/Part.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
   C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+  C:/MinGW/include/c++/13.1.0/sstream \
+  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
 
@@ -2509,6 +2517,8 @@ CMakeFiles/Snake.dir/src/Snake.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pr
   C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+  C:/MinGW/include/c++/13.1.0/sstream \
+  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
 
 CMakeFiles/Snake.dir/src/main.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/main.cpp \
@@ -3009,6 +3019,8 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
   C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Field.hpp \
+  C:/MinGW/include/c++/13.1.0/sstream \
+  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
@@ -3544,6 +3556,8 @@ C:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/MinGW/include/c++/13.1.0/bits/alloc_traits.h:
 
+C:/MinGW/include/c++/13.1.0/sstream:
+
 C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/System/Err.hpp:
 
 C:/MinGW/x86_64-w64-mingw32/include/minwindef.h:
@@ -3597,6 +3611,8 @@ C:/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Graphics/RenderStates.hpp:
 
 C:/MinGW/include/c++/13.1.0/new:
+
+C:/MinGW/include/c++/13.1.0/bits/sstream.tcc:
 
 C:/MinGW/x86_64-w64-mingw32/include/wincon.h:
 

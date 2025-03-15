@@ -495,4 +495,6 @@ CMakeFiles/Snake.dir/src/Field.cpp.obj: \
  C:/MinGW/x86_64-w64-mingw32/include/imm.h \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
- C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
+ C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp \
+ C:/MinGW/include/c++/13.1.0/sstream \
+ C:/MinGW/include/c++/13.1.0/bits/sstream.tcc

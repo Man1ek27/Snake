@@ -1,6 +1,8 @@
 #include "../include/Game.hpp"
 
-Game::Game(std::string title): _title{title}{}
+Game::Game(std::string title): _title{title}{
+    this->font.loadFromFile(("../fonts/OpenSans-Semibold.ttf"));
+}
 
 
 
@@ -15,6 +17,9 @@ void Game::Run(){
     int steps=1;
     Fruit fruit;
 
+    //Pause
+    Pause pause(font);
+
     while(W.isOpen()){
         while(W.pollEvent(e)){
             if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) W.close();
@@ -26,12 +31,19 @@ void Game::Run(){
         
         if((++steps)%10 == 0){
             snake.UpdatePos();
-            std::cout << snake.direction << std::endl;
+            //std::cout << snake.direction << std::endl;
             steps =1;
         }
+        
+
         board.Draw(W);
         W.draw(fruit);
         snake.Draw(W);
+
+        if(snake.getSpeed() == 0){
+            pause.Draw(W);
+            
+        }
         W.display();
     }
     
