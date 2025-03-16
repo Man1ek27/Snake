@@ -105,5 +105,6 @@ void Game::isColisionFruit(Snake &snake, Fruit &fruit){
         this->pointsCount++;
         this->points.setString("Points: " + std::to_string(pointsCount));
 
+        snake.ekspend();
     }
 }

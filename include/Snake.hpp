@@ -26,5 +26,6 @@ class Snake: public sf::Sprite{
         float getSpeed();
         void setSpeed(float sped);
         Part& getHead();
+        void ekspend();
 
 };

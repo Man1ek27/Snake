@@ -79,4 +79,9 @@ Part& Snake::getHead(){
     return parts[0];
 }
 
+void Snake::ekspend(){
+    parts.push_back(Part(sf::Vector2f(parts.back().getPosition().x,parts.back().getPosition().y)));
+}
+
+
 
