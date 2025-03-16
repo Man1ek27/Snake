@@ -75,3 +75,8 @@ void Snake::setSpeed(float sped){
     speed = sped;
 }
 
+Part& Snake::getHead(){
+    return parts[0];
+}
+
+

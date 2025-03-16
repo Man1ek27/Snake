@@ -2,6 +2,14 @@
 
 Game::Game(std::string title): _title{title}{
     this->font.loadFromFile(("../fonts/OpenSans-Semibold.ttf"));
+
+    this->points.setString("Points: 0");
+    this->points.setFont(font);
+    this->points.setCharacterSize(30);
+    this->points.setPosition(sf::Vector2f(2,0));
+    this->points.setFillColor(sf::Color::White);
+    this->points.setOutlineColor(sf::Color::Black);
+    this->points.setOutlineThickness(1);
 }
 
 
@@ -60,9 +68,11 @@ void Game::Run(){
         }
         
         
+        this->isColisionFruit(snake, fruit);
         board.Draw(W, transparenting_b);
         W.draw(fruit);
         snake.Draw(W);
+        W.draw(points);
 
         if(snake.getSpeed() == 0){
             pause.Draw(W);
@@ -88,3 +98,10 @@ void Game::CreateNewWindow(sf::RenderWindow &W, sf::String title){
     W.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
 }
 
+void Game::isColisionFruit(Snake &snake, Fruit &fruit){
+    if(snake.getHead().getGlobalBounds().intersects(fruit.getGlobalBounds())){
+        std::cout << "kolizja" << std::endl;
+        fruit.eaten();
+
+    }
+}

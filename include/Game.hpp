@@ -26,6 +26,7 @@ class Game: public sf::RenderWindow{
     sf::Font font;
     sf::Event e;
     int steps=1;
+    sf::Text points;
 
     //trensparening borders
     bool transparenting_b = true;
@@ -37,5 +38,6 @@ class Game: public sf::RenderWindow{
         static void CreateNewWindow(sf::RenderWindow &W, sf::String title);
 
         void Run();
+        void isColisionFruit(Snake &snake, Fruit &fruit);
 
 };

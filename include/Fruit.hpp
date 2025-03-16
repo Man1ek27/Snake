@@ -11,5 +11,6 @@ class Fruit: public sf::Sprite{
 
       public:
         Fruit();
+        void eaten();
 
 };
