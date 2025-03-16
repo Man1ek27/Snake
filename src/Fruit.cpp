@@ -11,5 +11,4 @@ Fruit::Fruit(){
 
 void Fruit::eaten(){
     this->setPosition(sf::Vector2f(rand()%(SCREENX-3)+3, rand()%(SCREENY-3)+3));
-
 }

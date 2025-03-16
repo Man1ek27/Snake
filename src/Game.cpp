@@ -102,6 +102,8 @@ void Game::isColisionFruit(Snake &snake, Fruit &fruit){
     if(snake.getHead().getGlobalBounds().intersects(fruit.getGlobalBounds())){
         std::cout << "kolizja" << std::endl;
         fruit.eaten();
+        this->pointsCount++;
+        this->points.setString("Points: " + std::to_string(pointsCount));
 
     }
 }

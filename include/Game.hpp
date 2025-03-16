@@ -27,6 +27,7 @@ class Game: public sf::RenderWindow{
     sf::Event e;
     int steps=1;
     sf::Text points;
+    int pointsCount =0;
 
     //trensparening borders
     bool transparenting_b = true;
