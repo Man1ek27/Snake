@@ -8,12 +8,15 @@ class Field: public sf::RenderWindow{
     sf::Texture bgtx;
     sf::RectangleShape bg;
 
+    sf::RectangleShape borders;
+
     int x = SCREENX;
     int y = SCREENY;
+    int steps =0;
 
     public:
         Field(std::string);
-        void Draw(sf::RenderWindow& window);
+        void Draw(sf::RenderWindow& window, bool &transparenting);
 
 };
 

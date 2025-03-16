@@ -46,9 +46,18 @@ void Snake::UpdatePos(){
     int x = (direction == "left"?-1:(direction == "right"?1:0));
     int y = (direction == "up"?-1:(direction == "down"?1:0));
 
-    sf::Vector2f prev(parts[0].getPosition().x, parts[0].getPosition().y);
-    parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x + (21*speed * x), parts[0].getPosition().y + (21*speed * y)));
     if(speed){
+        sf::Vector2f prev(parts[0].getPosition().x, parts[0].getPosition().y);
+        parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x + (21*speed * x), parts[0].getPosition().y + (21*speed * y)));
+
+        //wyjscie boki
+        if(parts[0].getPosition().x > SCREENX ) parts[0].setPosition(sf::Vector2f(0, parts[0].getPosition().y));
+        if(parts[0].getPosition().x < 0 ) parts[0].setPosition(sf::Vector2f(SCREENX, parts[0].getPosition().y));
+
+        //wyjscie gora dol
+        if(parts[0].getPosition().y > SCREENY ) parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x, 0));
+        if(parts[0].getPosition().y < 0 ) parts[0].setPosition(sf::Vector2f(parts[0].getPosition().x, SCREENY));
+
         for(auto i = parts.begin()+1; i< parts.end(); i++){
             sf::Vector2f temp((*i).getPosition().x, (*i).getPosition().y);
             (*i).setPosition(prev);

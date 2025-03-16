@@ -5,10 +5,24 @@ Field::Field(std::string file){
     bg.setTexture(&(this->bgtx));
     bg.setPosition(0,0);
     bg.setSize(sf::Vector2f(x, y));
+    bg.setOutlineColor(sf::Color::Black);
+
+    borders.setSize(sf::Vector2f(x-4,y-4));
+    borders.setFillColor(sf::Color(0x00000000));
+    borders.setOrigin(sf::Vector2f(borders.getSize().x/2, borders.getSize().y/2));
+    borders.setPosition(sf::Vector2f(bg.getSize().x/2, bg.getSize().y/2));
+    borders.setOutlineColor(sf::Color(0x2f3832ff));
+    borders.setOutlineThickness(10);
+    
 }
 
-void Field::Draw(sf::RenderWindow& window){
+void Field::Draw(sf::RenderWindow& window, bool &transparenting){
     window.draw(bg);
+
+    if(transparenting && (++steps%40 < 20)){
+
+        window.draw(borders);
+    }
 }
 
 

@@ -12,11 +12,7 @@ void Game::Run(){
 
     Field board("../images/background.jpg");
     Snake snake(4);
-
-    sf::Event e;
-    int steps=1;
     Fruit fruit;
-
 
     //Pause
     Pause pause(font);
@@ -35,7 +31,7 @@ void Game::Run(){
                 }
                 else{
                     for(int i=3; i>=0; i--){
-                        board.Draw(W);
+                        board.Draw(W, transparenting_b);
                         W.draw(fruit);
                         snake.Draw(W);
                         pause.Draw(W, std::to_string(i));
@@ -64,7 +60,7 @@ void Game::Run(){
         }
         
         
-        board.Draw(W);
+        board.Draw(W, transparenting_b);
         W.draw(fruit);
         snake.Draw(W);
 
