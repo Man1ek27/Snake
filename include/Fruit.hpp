@@ -9,8 +9,11 @@ class Fruit: public sf::Sprite{
       sf::Image skin;
       sf::Texture skinTx;
 
+      sf::Texture bananaTx;
+      bool isBanana = false;
+
       public:
         Fruit();
-        void eaten();
+        void eaten(bool &banana);
 
 };

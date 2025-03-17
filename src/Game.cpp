@@ -101,7 +101,7 @@ void Game::CreateNewWindow(sf::RenderWindow &W, sf::String title){
 void Game::isColisionFruit(Snake &snake, Fruit &fruit){
     if(snake.getHead().getGlobalBounds().intersects(fruit.getGlobalBounds())){
         std::cout << "kolizja" << std::endl;
-        fruit.eaten();
+        fruit.eaten(transparenting_b);
         this->pointsCount++;
         this->points.setString("Points: " + std::to_string(pointsCount));
 
