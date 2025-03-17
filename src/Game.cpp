@@ -67,6 +67,15 @@ void Game::Run(){
             steps =1;
         }
         
+        if(transparenting_b && !pomZegar){
+            clock.restart();
+            pomZegar = true;
+        };
+        if(transparenting_b && (clock.getElapsedTime().asSeconds() > 10)){
+            transparenting_b = false;
+            pomZegar = false;
+        }
+
         
         this->isColisionFruit(snake, fruit);
         board.Draw(W, transparenting_b);

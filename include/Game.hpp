@@ -28,9 +28,11 @@ class Game: public sf::RenderWindow{
     int steps=1;
     sf::Text points;
     int pointsCount =0;
+    sf::Clock clock;
+    bool pomZegar = false;
 
     //trensparening borders
-    bool transparenting_b = true;
+    bool transparenting_b = false;
 
 
     public:

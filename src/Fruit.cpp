@@ -13,7 +13,6 @@ Fruit::Fruit(){
 
 void Fruit::eaten(bool &banana){
     if(isBanana) banana = true;
-    else banana = false;
 
     this->setTexture(skinTx);
     isBanana = false;
