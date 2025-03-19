@@ -500,6 +500,22 @@ CMakeFiles/Snake.dir/src/Field.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pr
   C:/MinGW/x86_64-w64-mingw32/include/mcx.h \
   C:/MinGW/x86_64-w64-mingw32/include/imm.h \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
+  C:/MinGW/include/c++/13.1.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+  C:/MinGW/include/c++/13.1.0/limits \
+  C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp \
   C:/MinGW/include/c++/13.1.0/sstream \
@@ -1007,6 +1023,22 @@ CMakeFiles/Snake.dir/src/Fruit.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pr
   C:/MinGW/include/c++/13.1.0/sstream \
   C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
+  C:/MinGW/include/c++/13.1.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+  C:/MinGW/include/c++/13.1.0/limits \
+  C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp
 
 CMakeFiles/Snake.dir/src/Game.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Game.cpp \
@@ -1510,6 +1542,22 @@ CMakeFiles/Snake.dir/src/Game.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
   C:/MinGW/include/c++/13.1.0/sstream \
   C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
+  C:/MinGW/include/c++/13.1.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+  C:/MinGW/include/c++/13.1.0/limits \
+  C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
 
@@ -2015,6 +2063,22 @@ CMakeFiles/Snake.dir/src/Part.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
   C:/MinGW/include/c++/13.1.0/sstream \
   C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
+  C:/MinGW/include/c++/13.1.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+  C:/MinGW/include/c++/13.1.0/limits \
+  C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
 
 CMakeFiles/Snake.dir/src/Snake.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Snake.cpp \
@@ -2269,6 +2333,22 @@ CMakeFiles/Snake.dir/src/Snake.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pr
   C:/MinGW/include/c++/13.1.0/iostream \
   C:/MinGW/include/c++/13.1.0/istream \
   C:/MinGW/include/c++/13.1.0/bits/istream.tcc \
+  C:/MinGW/include/c++/13.1.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+  C:/MinGW/include/c++/13.1.0/limits \
+  C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Game.hpp \
   C:/MinGW/x86_64-w64-mingw32/include/windows.h \
@@ -3022,6 +3102,22 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
   C:/MinGW/include/c++/13.1.0/sstream \
   C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
+  C:/MinGW/include/c++/13.1.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+  C:/MinGW/include/c++/13.1.0/limits \
+  C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
   C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp
 
@@ -3029,6 +3125,16 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: C:/Users/Mariu/OneDrive/Dokumenty/C++/Pro
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Part.cpp:
 
 C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/src/Game.cpp:
+
+C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc:
+
+C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc:
+
+C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc:
+
+C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc:
+
+C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/imm.h:
 
@@ -3065,6 +3171,8 @@ C:/MinGW/x86_64-w64-mingw32/include/ncrypt.h:
 C:/MinGW/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h:
+
+C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc:
 
 C:/MinGW/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h:
 
@@ -3139,6 +3247,8 @@ C:/MinGW/x86_64-w64-mingw32/include/apisetcconv.h:
 C:/MinGW/x86_64-w64-mingw32/include/winbase.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/ktmtypes.h:
+
+C:/MinGW/include/c++/13.1.0/cmath:
 
 C:/MinGW/x86_64-w64-mingw32/include/pshpack2.h:
 
@@ -3232,6 +3342,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintrin.h:
 
+C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/uintrintrin.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tsxldtrkintrin.h:
@@ -3279,6 +3391,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h:
+
+C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h:
 
@@ -3337,6 +3451,8 @@ C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 C:/MinGW/x86_64-w64-mingw32/include/locale.h:
 
 C:/MinGW/include/c++/13.1.0/bits/range_access.h:
+
+C:/MinGW/include/c++/13.1.0/bits/specfun.h:
 
 C:/MinGW/include/c++/13.1.0/bits/exception_defines.h:
 
@@ -3398,6 +3514,8 @@ C:/MinGW/x86_64-w64-mingw32/include/ole2.h:
 
 C:/MinGW/include/c++/13.1.0/bits/cxxabi_init_exception.h:
 
+C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc:
+
 C:/MinGW/include/c++/13.1.0/bits/charconv.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/mcx.h:
@@ -3426,6 +3544,8 @@ C:/MinGW/x86_64-w64-mingw32/include/pthread_signal.h:
 
 C:/MinGW/include/c++/13.1.0/bits/streambuf_iterator.h:
 
+C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc:
+
 C:/MinGW/include/c++/13.1.0/debug/debug.h:
 
 C:/MinGW/include/c++/13.1.0/bits/stl_construct.h:
@@ -3453,6 +3573,8 @@ C:/MinGW/include/c++/13.1.0/cstdlib:
 C:/MinGW/include/c++/13.1.0/ext/atomicity.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/math.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/wtypes.h:
 
@@ -3559,6 +3681,8 @@ C:/MinGW/include/c++/13.1.0/bits/alloc_traits.h:
 C:/MinGW/include/c++/13.1.0/sstream:
 
 C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/System/Err.hpp:
+
+C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc:
 
 C:/MinGW/x86_64-w64-mingw32/include/minwindef.h:
 
@@ -3719,6 +3843,8 @@ C:/MinGW/include/c++/13.1.0/bits/stl_tree.h:
 C:/MinGW/include/c++/13.1.0/bits/ios_base.h:
 
 C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Window/Event.hpp:
+
+C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc:
 
 C:/MinGW/include/c++/13.1.0/bits/basic_string.tcc:
 
@@ -3895,6 +4021,8 @@ C:/MinGW/include/c++/13.1.0/locale:
 C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/System/Vector3.inl:
 
 C:/Users/Mariu/Documents/Library/SFML-2.6.2/include/SFML/Window/Export.hpp:
+
+C:/MinGW/include/c++/13.1.0/limits:
 
 C:/MinGW/include/c++/13.1.0/bits/stl_bvector.h:
 

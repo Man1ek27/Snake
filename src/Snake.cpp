@@ -83,5 +83,34 @@ void Snake::ekspend(){
     parts.push_back(Part(sf::Vector2f(parts.back().getPosition().x,parts.back().getPosition().y)));
 }
 
+bool Snake::checkIfOver(bool &transparenting){
+    sf::Vector2f hedPos = parts[0].getPosition();
+
+    
+
+    if(!transparenting){
+        std::cout << "dik" << std::endl;
+        //wyjscie boki
+        if(hedPos.x >= SCREENX ) return true;
+        if(hedPos.x <= 0 ) return true;
+
+        //wyjscie gora dol
+        if(hedPos.y >= SCREENY ) return true;
+        if(hedPos.y <= 0 )return true;
+
+    }
+
+    if(parts.size() < 4) return false;
+    for(auto i = parts.begin() +3; i < parts.end(); i++){
+        sf::Vector2f segPos = (*i).getPosition();
+
+        float dx = hedPos.x - segPos.x;
+        float dy = hedPos.y - segPos.y;
+        float distance = std::sqrt(dx*dx + dy*dy);
+        if(distance < 21) return true;
+    }
+    return false;
+}
+
 
 

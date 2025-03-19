@@ -60,3 +60,35 @@ void Pause::Draw(sf::RenderWindow &W, std::string a){
     W.draw(this->txt);
 }
 
+
+
+
+GameOver::GameOver(sf::Font &font){
+    // this->bg.loadFromFile("../images/start_bg.jpg");
+    if (!this->bg.loadFromFile("../images/start_bg.jpg")) {
+        std::cerr << "Error loading background image!" << std::endl;
+    }
+    this->setTexture(&bg);
+    
+    this->setSize(sf::Vector2f(SCREENX/3*2,SCREENY/3*2));
+    this->setOrigin(this->getSize().x/2, this->getSize().y/2);
+    this->setPosition(SCREENX/2, SCREENY/2);
+    //this->setFillColor(sf::Color(0x595454ff));
+
+    this->grey.setSize(sf::Vector2f(SCREENX, SCREENY));
+    this->grey.setPosition(sf::Vector2f(0,0));
+    this->grey.setFillColor(sf::Color(0x59545460));
+
+    ss.str("GAME OVER");
+    this->txt.setCharacterSize(100);
+    this->txt.setFillColor(sf::Color(0xffffffff));
+    this->txt.setFont(font);
+    this->txt.setString(ss.str());
+}
+
+void GameOver::Draw(sf::RenderWindow &W){
+    W.draw(*this);
+    W.draw(grey);
+}
+
+

@@ -35,3 +35,14 @@ class Pause: public sf::RectangleShape{
 
 
 };
+
+class GameOver: public sf::RectangleShape{
+    std::stringstream ss;
+    sf::Text txt;
+    sf::Texture bg;
+    sf::RectangleShape grey;
+
+    public:
+        GameOver(sf::Font &font);
+        void Draw(sf::RenderWindow &W);
+};

@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 #include "Part.hpp"
 #include "Field.hpp"
@@ -27,5 +28,6 @@ class Snake: public sf::Sprite{
         void setSpeed(float sped);
         Part& getHead();
         void ekspend();
+        bool checkIfOver(bool &transparenting);
 
 };

@@ -21,6 +21,7 @@ void Game::Run(){
     Field board("../images/background.jpg");
     Snake snake(4);
     Fruit fruit;
+    GameOver gameOver(font);
 
     //Pause
     Pause pause(font);
@@ -83,6 +84,10 @@ void Game::Run(){
         snake.Draw(W);
         W.draw(points);
 
+        if(snake.checkIfOver(transparenting_b)){
+            gameOver.Draw(W);
+        }
+
         if(snake.getSpeed() == 0){
             pause.Draw(W);
         }
@@ -109,7 +114,7 @@ void Game::CreateNewWindow(sf::RenderWindow &W, sf::String title){
 
 void Game::isColisionFruit(Snake &snake, Fruit &fruit){
     if(snake.getHead().getGlobalBounds().intersects(fruit.getGlobalBounds())){
-        std::cout << "kolizja" << std::endl;
+        //std::cout << "kolizja" << std::endl;
         fruit.eaten(transparenting_b);
         this->pointsCount++;
         this->points.setString("Points: " + std::to_string(pointsCount));
@@ -117,3 +122,5 @@ void Game::isColisionFruit(Snake &snake, Fruit &fruit){
         snake.ekspend();
     }
 }
+
+

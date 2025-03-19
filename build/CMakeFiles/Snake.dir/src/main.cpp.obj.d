@@ -497,5 +497,21 @@ CMakeFiles/Snake.dir/src/main.cpp.obj: \
  C:/MinGW/include/c++/13.1.0/sstream \
  C:/MinGW/include/c++/13.1.0/bits/sstream.tcc \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Snake.hpp \
+ C:/MinGW/include/c++/13.1.0/cmath \
+ C:/MinGW/x86_64-w64-mingw32/include/math.h \
+ C:/MinGW/include/c++/13.1.0/bits/specfun.h \
+ C:/MinGW/include/c++/13.1.0/limits \
+ C:/MinGW/include/c++/13.1.0/tr1/gamma.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/special_function_util.h \
+ C:/MinGW/include/c++/13.1.0/tr1/bessel_function.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/beta_function.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/ell_integral.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/exp_integral.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/hypergeometric.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/legendre_function.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/poly_hermite.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+ C:/MinGW/include/c++/13.1.0/tr1/riemann_zeta.tcc \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Part.hpp \
  C:/Users/Mariu/OneDrive/Dokumenty/C++/Projects/Snake/include/Fruit.hpp

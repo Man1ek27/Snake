@@ -34,6 +34,8 @@ class Game: public sf::RenderWindow{
     //trensparening borders
     bool transparenting_b = false;
 
+   
+
 
     public:
         Game(std::string);
@@ -42,5 +44,5 @@ class Game: public sf::RenderWindow{
 
         void Run();
         void isColisionFruit(Snake &snake, Fruit &fruit);
-
+        bool checkIfAlive(Snake &snake);
 };

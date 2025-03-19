@@ -8,6 +8,7 @@ Part::Part(sf::Vector2f pos):RectangleShape() {
     this->setFillColor(sf::Color(sf::Color::Green));
     this->setOutlineThickness(1);
     this->setOutlineColor(sf::Color::Black);
+    
 }
 
 Part::Part(sf::Vector2f pos, sf::Color color): Part{pos}{
